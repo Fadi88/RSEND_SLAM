@@ -22,3 +22,6 @@ odom_alpha1: 0.00001
 odom_alpha2: 0.001
 odom_alpha3: 0.00001
 odom_alpha4: 0.001
+
+# Laser Model Parameters
+laser_max_beams: 360 
