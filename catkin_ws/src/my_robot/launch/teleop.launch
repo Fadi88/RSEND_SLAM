@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
     <node name="teleop_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
-        <param name="speed" value="0.4"/>
+        <param name="speed" value="0.25"/>
         <param name="turn" value="0.2"/>
     </node>
 </launch>

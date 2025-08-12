@@ -287,5 +287,313 @@
                 <uri>model://trash_bin</uri>
             </include>
         </model>
+        <model name="red_box">
+            <pose>-2 2 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="green_cylinder">
+            <pose>2 -2 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.5</length>
+                        </cylinder>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.5</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="blue_sphere">
+            <pose>0 -5.5 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <sphere>
+                            <radius>0.25</radius>
+                        </sphere>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <sphere>
+                            <radius>0.25</radius>
+                        </sphere>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="orange_box_2">
+            <pose>5 2 0.5 0 0 1.5707</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 1.0</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 1.0</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Orange</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="purple_cylinder_2">
+            <pose>-5 -2 0.5 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.4</radius>
+                            <length>1.0</length>
+                        </cylinder>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.4</radius>
+                            <length>1.0</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Purple</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="teal_box_3">
+            <pose>-2 -5 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.8 0.8 0.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.8 0.8 0.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Turquoise</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="yellow_sphere_2">
+            <pose>5 -5 0.5 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <sphere>
+                            <radius>0.3</radius>
+                        </sphere>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <sphere>
+                            <radius>0.3</radius>
+                        </sphere>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="small_green_box">
+            <pose>6 0 0.1 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.2 0.2 0.2</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.2 0.2 0.2</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="small_red_cylinder">
+            <pose>-6 0 0.15 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.3</length>
+                        </cylinder>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.3</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="small_yellow_sphere">
+            <pose>0 3 0.1 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <sphere>
+                            <radius>0.1</radius>
+                        </sphere>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <sphere>
+                            <radius>0.1</radius>
+                        </sphere>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="small_blue_box_2">
+            <pose>-2.5 -2.5 0.1 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.3 0.3 0.2</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.3 0.3 0.2</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <model name="small_purple_cylinder_2">
+            <pose>2.5 2.5 0.15 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.1</radius>
+                            <length>0.3</length>
+                        </cylinder>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <cylinder>
+                            <radius>0.1</radius>
+                            <length>0.3</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Purple</name>
+                        </script>
+                    </material>
+                </visual>
+            </link>
+        </model>
     </world>
 </sdf>
