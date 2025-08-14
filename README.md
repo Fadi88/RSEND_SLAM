@@ -47,12 +47,6 @@ If you already cloned the repository without Git LFS and see small "pointer" fil
 git lfs pull
 
 ```
-## Downloading the zip from github (option 2)
-
-```
-wget https://github.com/Fadi88/RSEND_SLAM/archive/refs/heads/main.zip
-
-```
  
 ## Running the Project
 
