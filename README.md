@@ -14,7 +14,7 @@ The project has been developed and tested on the following platform:
 
 * **ROS Distribution:** ROS Noetic Ninjemys
 
-## Cloning the Repository
+## Cloning the Repository (Option 1)
 
 This project uses **Git Large File Storage (LFS)** to handle large data files, such as maps and log files, efficiently. To properly clone the repository and download these files, you must have Git LFS installed on your system.
 
@@ -37,7 +37,7 @@ git lfs install
 After installing Git LFS, you can clone the repository as you normally would. The LFS-tracked files will be downloaded automatically during the process.
 
 ```
-git clone <repository_url>
+git clone https://github.com/Fadi88/RSEND_SLAM.git
 
 ```
 
@@ -47,7 +47,13 @@ If you already cloned the repository without Git LFS and see small "pointer" fil
 git lfs pull
 
 ```
+## Downloading the zip from github (option 2)
 
+```
+wget https://github.com/Fadi88/RSEND_SLAM/archive/refs/heads/main.zip
+
+```
+ 
 ## Running the Project
 
 To run this project, you need to have ROS Noetic installed and configured on your Ubuntu 20.04 system.
